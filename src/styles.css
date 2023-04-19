@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.app {
+  max-height: 100vh;
+  width: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 10px;
+  gap: 30px;
+}
+.box {
+  height: 30px;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 10px;
+}
+
+.Req:hover {
+  background-color: grey;
+}
+.child1 {
+  padding-left: 65px;
+  margin: 15px;
+  width: 70%;
+  gap: 20px;
+}
+.input-box {
+  border-width: 0px;
+  border-style: none;
+}
+.input-box:hover {
+  background-color: lightgrey;
+}
+.top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.plus-image {
+  height: 55px;
+  width: 50px;
+  padding-left: 96px;
+}
+
+.delete-icon {
+  width: 25px;
+  height: 25px;
+}
